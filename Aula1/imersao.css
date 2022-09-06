@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-color: #000000;
+    background-size: 80vh;
+    /* background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+    background-position: center bottom;
+    background-repeat: no-repeat; */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 60vh;
+    background-color: rgba(51, 118, 243, 0.959);
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+
+  input{
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  button{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 1.5s;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    background-color: rgb(252, 227, 0);
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #resultado{
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
