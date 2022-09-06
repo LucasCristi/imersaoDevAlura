@@ -4,5 +4,5 @@ function converter(){
     let dolarAtual = document.getElementById("dolarAtual").value
 
     let calculo = valor * dolarAtual
-    document.getElementById("resultado").innerHTML = `Valor em reais R$ ${calculo}`
+    document.getElementById("resultado").innerHTML = `Valor em reais R$ ${parseFloat.calculo}`
 }
