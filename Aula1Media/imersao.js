@@ -20,11 +20,26 @@ function soma() {
 
     let mediaFinal = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3)) / 3;
 
-    if(mediaFinal < 7){
-        return document.getElementById('resultado').innerHTML = `${nomeCompleto} sua média é ${mediaFinal.toFixed(2)}, você está reprovado!`
-    } else if(mediaFinal >= 7){
-        return document.getElementById('resultado').innerHTML = `${nomeCompleto} sua média é ${mediaFinal.toFixed(2)}, você está aprovado!`
+    if (mediaFinal < 7) {
+
+        document.getElementById('resultado').innerHTML = `${nomeCompleto} sua média é ${mediaFinal.toFixed(3)}, você está reprovado!`
+
+    } else if (mediaFinal <= 7) {
+        document.getElementById('resultado').innerHTML = `${nomeCompleto} sua média é ${mediaFinal.toFixed(3)}, você está aprovado!`
+
     }
 
+    
 }
+
+function limpar(){
+    nomeCompleto.value = "";
+    nota1.value = "";
+    nota2.value = "";
+    nota3.value = "";
+}
+
+
+
+
 

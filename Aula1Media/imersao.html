@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="imersao.css">
-    <script src="imersao.js"></script>
-
+    
     <title>Imersão Dev 05/09/22</title>
 </head>
 
@@ -15,29 +14,31 @@
     <div class="container">
         <h1 class="page-title">
             Calculadora de média</h1>
-        <p class="page-subtitle">
-            Descubra qual a sua média de nota de todas as provas!
-        </p>
-        <div class="botoes">
-
-            <input type="text" id="nomeCompleto" placeholder="Informe o nome completo">
+            <p class="page-subtitle">
+                Descubra qual a sua média de nota de todas as provas!
+            </p>
+            <div class="botoes">
+                
+                <input type="text" id="nomeCompleto" placeholder="Informe o nome completo">
             <input type="number" id="nota1" placeholder="Informe a primeira nota">
             <input type="number" id="nota2" placeholder="Informe a segunda nota">
             <input type="number" id="nota3" placeholder="Informe a terceira nota">
-            <button onclick="soma()">Calcular</button>
+            <button  onclick="soma()">Calcular</button>
+            <button onclick="limpar()">Limpar</button>
             <p id="resultado"></p>
-
+            
         </div>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
-            class="page-logo" alt="">
-
-
+        class="page-logo" alt="">
+        
+        
     </div>
-
-
+    
+    
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
+    <script src="imersao.js"></script>
 </body>
 
 </html>
